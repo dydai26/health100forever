@@ -236,6 +236,43 @@ nav {
   line-height: 1.75;
 }
 
+/* HERO BOTTOM INFO */
+.hero-bottom-info {
+  margin: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.hero-bottom-info .treatment-line {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+}
+
+.hero-bottom-info .treatment-line em.highlight-text {
+  color: var(--gold);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.hero-bottom-info .payment-line {
+  font-size: 1.05rem;
+  color: var(--gold);
+}
+
+.hero-bottom-info .payment-line strong {
+  font-weight: 700;
+}
+
+.hero-bottom-info .programs-line {
+  font-size: 0.95rem;
+  color: rgba(249, 250, 251, 0.85);
+  font-weight: 500;
+}
+
 .hero-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
