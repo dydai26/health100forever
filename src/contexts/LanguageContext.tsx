@@ -42,6 +42,11 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
                   ...defaultTranslations[lang][sec],
                   ...parsed[lang][sec]
                 };
+                
+                // Auto-upgrade stale cached copyright year
+                if (sec === 'footer' && merged[lang][sec].copyright && merged[lang][sec].copyright.includes('2024')) {
+                  merged[lang][sec].copyright = merged[lang][sec].copyright.replace('2024', '2026');
+                }
               }
             });
           }
