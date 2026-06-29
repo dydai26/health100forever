@@ -16,6 +16,12 @@ CREATE INDEX IF NOT EXISTS idx_site_translations_lookup ON site_translations (la
 -- 2. Configure Row Level Security (RLS)
 ALTER TABLE site_translations ENABLE ROW LEVEL SECURITY;
 
+-- Drop existing policies if they already exist to avoid duplication conflicts
+DROP POLICY IF EXISTS "Allow public select access" ON site_translations;
+DROP POLICY IF EXISTS "Allow public insert access" ON site_translations;
+DROP POLICY IF EXISTS "Allow public update access" ON site_translations;
+DROP POLICY IF EXISTS "Allow public delete access" ON site_translations;
+
 -- Allow anyone to read translations (anonymous select)
 CREATE POLICY "Allow public select access" ON site_translations
   FOR SELECT USING (true);
