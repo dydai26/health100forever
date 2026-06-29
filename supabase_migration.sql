@@ -93,7 +93,10 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('en', 'contact', 'title', 'Start your journey to health today'),
 ('en', 'contact', 'lead', 'Write or call us — we will answer all your questions and select the optimal program.'),
 ('en', 'contact', 'guaranteeTitle', '💛 Payment after recovery'),
-('en', 'contact', 'guaranteeDesc', 'We are so confident in the result that you pay 30% of the cost only after a confirmed recovery of health.'),
+('en', 'contact', 'guaranteeDesc', 'We are so confident in the result that you pay 30% of the cost only after a confirmed recovery of health. Why die? Write, call.'),
+('en', 'contact', 'treatmentLine', 'Treatment of *incurable* patients (oncology (cancer, sarcoma, etc.), AIDS, diabetes) at any stage without surgical intervention.'),
+('en', 'contact', 'paymentLine', 'Payment after recovery (30%).'),
+('en', 'contact', 'programsLine', 'Programs for health and successful life.'),
 
 ('en', 'footer', 'copyright', '© 2024 Health Forever. We work worldwide.'),
 
@@ -128,7 +131,7 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('ru', 'why', 'lead', 'Мы делаем то, от чего традиционная медицина отказывается. Новые технологии, индивидуальный подход и полная ответственность за результат.'),
 ('ru', 'why', 'point1Title', 'Новые технологии лечения'),
 ('ru', 'why', 'point1Desc', 'Применяем передовые научно обоснованные методики, недоступные в обычных клиниках. Подход, выходящий далеко за рамки стандартной медицины.'),
-('ru', 'why', 'point2Title', 'Оплата лишь после одужання'),
+('ru', 'why', 'point2Title', 'Оплата лишь после выздоровления'),
 ('ru', 'why', 'point2Desc', '30% стоимости — только после подтвержденного результата. Мы настолько уверены в своих методах, что берем на себя весь риск.'),
 ('ru', 'why', 'point3Title', 'Работаем по всему миру'),
 ('ru', 'why', 'point3Desc', 'Дистанционная помощь без границ — вы можете находиться где угодно. Мы уже помогли пациентам из десятков стран.'),
@@ -158,7 +161,10 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('ru', 'contact', 'title', 'Начните свой путь к здоровью сегодня'),
 ('ru', 'contact', 'lead', 'Напишите или позвоните нам — мы ответим на все ваши вопросы и подберем оптимальную программу.'),
 ('ru', 'contact', 'guaranteeTitle', '💛 Оплата после выздоровления'),
-('ru', 'contact', 'guaranteeDesc', 'Мы настолько уверены в результате, что 30% стоимости вы оплачиваете только после подтвержденного восстановления здоровья.'),
+('ru', 'contact', 'guaranteeDesc', 'Мы настолько уверены в результате, что 30% стоимости вы оплачиваете только после подтвержденного восстановления здоровья. Зачем умирать? Пишите, звоните.'),
+('ru', 'contact', 'treatmentLine', 'Лечение *неизлечимых* больных (онкология (рак, саркома и др.), СПИД, диабет) на любой стадии без хирургического вмешательства.'),
+('ru', 'contact', 'paymentLine', 'Оплата после выздоровления (30 %).'),
+('ru', 'contact', 'programsLine', 'Программы для здоровья и успешной жизни.'),
 
 ('ru', 'footer', 'copyright', '© 2024 Health Forever. Мы работаем по всему миру.'),
 
@@ -223,7 +229,10 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('zh', 'contact', 'title', '从今天开启您的健康之旅'),
 ('zh', 'contact', 'lead', '写信或致电我们——我们将回答您所有问题并为您选择最佳项目。'),
 ('zh', 'contact', 'guaranteeTitle', '💛 康复后付款'),
-('zh', 'contact', 'guaranteeDesc', '我们对结果充满信心，您仅在确认健康恢复后支付30%的费用。'),
+('zh', 'contact', 'guaranteeDesc', '我们对结果充满信心，您仅在确认健康恢复后支付30%的费用。既然有解决方案，为什么要选择死亡？请写信或致电我们。'),
+('zh', 'contact', 'treatmentLine', '在任何阶段均无需手术干预即可治疗 *难治性* 疾病（肿瘤（癌症、肉瘤等）、艾滋病、糖尿病）。'),
+('zh', 'contact', 'paymentLine', '康复后付款（30%）。'),
+('zh', 'contact', 'programsLine', '健康与成功生活的项目。'),
 
 ('zh', 'footer', 'copyright', '© 2024 Health Forever. 我们服务全球。')
 ON CONFLICT (lang, section, key) 

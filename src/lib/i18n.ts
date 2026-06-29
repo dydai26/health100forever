@@ -64,7 +64,10 @@ export const translations = {
       title: "Start your journey to health today",
       lead: "Write or call us — we will answer all your questions and select the optimal program.",
       guaranteeTitle: "💛 Payment after recovery",
-      guaranteeDesc: "We are so confident in the result that you pay 30% of the cost only after a confirmed recovery of health."
+      guaranteeDesc: "We are so confident in the result that you pay 30% of the cost only after a confirmed recovery of health. Why die? Write, call.",
+      treatmentLine: "Treatment of *incurable* patients (oncology (cancer, sarcoma, etc.), AIDS, diabetes) at any stage without surgical intervention.",
+      paymentLine: "Payment after recovery (30%).",
+      programsLine: "Programs for health and successful life."
     },
     footer: {
       copyright: "© 2024 Health Forever. We work worldwide."
@@ -103,7 +106,7 @@ export const translations = {
       lead: "Мы делаем то, от\u00A0чего традиционная медицина отказывается. Новые технологии, индивидуальный подход и\u00A0полная ответственность за\u00A0результат.",
       point1Title: "Новые технологии лечения",
       point1Desc: "Применяем передовые научно обоснованные методики, недоступные в\u00A0обычных клиниках. Подход, выходящий далеко за\u00A0рамки стандартной медицины.",
-      point2Title: "Оплата лишь после одужання",
+      point2Title: "Оплата лишь после выздоровления",
       point2Desc: "30% стоимости\u00A0— только после подтвержденного результата. Мы настолько уверены в\u00A0своих методах, что берем на\u00A0себя весь риск.",
       point3Title: "Работаем по всему миру",
       point3Desc: "Дистанционная помощь без\u00A0границ\u00A0— вы можете находиться где\u00A0угодно. Мы уже помогли пациентам из\u00A0десятков стран.",
@@ -135,7 +138,10 @@ export const translations = {
       title: "Начните свой путь к здоровью сегодня",
       lead: "Напишите или позвоните нам — мы ответим на все ваши вопросы и подберем оптимальную программу.",
       guaranteeTitle: "💛 Оплата после выздоровления",
-      guaranteeDesc: "Мы настолько уверены в результате, что 30% стоимости вы оплачиваете только после подтвержденного восстановления здоровья."
+      guaranteeDesc: "Мы настолько уверены в результате, что 30% стоимости вы оплачиваете только после подтвержденного восстановления здоровья. Зачем умирать? Пишите, звоните.",
+      treatmentLine: "Лечение *неизлечимых* больных (онкология (рак, саркома и др.), СПИД, диабет) на любой стадии без хирургического вмешательства.",
+      paymentLine: "Оплата после выздоровления (30 %).",
+      programsLine: "Программы для здоровья и успешной жизни."
     },
     footer: {
       copyright: "© 2024 Health Forever. Мы работаем по всему миру."
@@ -206,7 +212,10 @@ export const translations = {
       title: "从今天开启您的健康之旅",
       lead: "写信或致电我们——我们将回答您所有问题并为您选择最佳项目。",
       guaranteeTitle: "💛 康复后付款",
-      guaranteeDesc: "我们对结果充满信心，您仅在确认健康恢复后支付30%的费用。"
+      guaranteeDesc: "我们对结果充满信心，您仅在确认健康恢复后支付30%的费用。既然有解决方案，为什么要选择死亡？请写信或致电我们。",
+      treatmentLine: "在任何阶段均无需手术干预即可治疗 *难治性* 疾病（肿瘤（癌症、肉瘤等）、艾滋病、糖尿病）。",
+      paymentLine: "康复后付款（30%）。",
+      programsLine: "健康与成功生活的项目。"
     },
     footer: {
       copyright: "© 2024 Health Forever. 我们服务全球。"

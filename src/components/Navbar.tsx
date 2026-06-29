@@ -54,6 +54,31 @@ export const Navbar: React.FC = () => {
         </li>
       </ul>
 
+      {/* Mobile/Tablet Language Switcher */}
+      <div className="lang-switcher header-mobile-switcher">
+        <button
+          onClick={() => setLanguage('en')}
+          className={language === 'en' ? 'active' : ''}
+          type="button"
+        >
+          EN
+        </button>
+        <button
+          onClick={() => setLanguage('ru')}
+          className={language === 'ru' ? 'active' : ''}
+          type="button"
+        >
+          RU
+        </button>
+        <button
+          onClick={() => setLanguage('zh')}
+          className={language === 'zh' ? 'active' : ''}
+          type="button"
+        >
+          ZH
+        </button>
+      </div>
+
       {/* Hamburger Toggle */}
       <button
         className={`nav-hamburger ${isOpen ? 'open' : ''}`}
@@ -78,40 +103,6 @@ export const Navbar: React.FC = () => {
             <a href="#programs" onClick={closeMenu}>
               {t.nav.programs}
             </a>
-          </li>
-          <li>
-            <div className="lang-switcher mobile-switcher">
-              <button
-                onClick={() => {
-                  setLanguage('en');
-                  closeMenu();
-                }}
-                className={language === 'en' ? 'active' : ''}
-                type="button"
-              >
-                EN
-              </button>
-              <button
-                onClick={() => {
-                  setLanguage('ru');
-                  closeMenu();
-                }}
-                className={language === 'ru' ? 'active' : ''}
-                type="button"
-              >
-                RU
-              </button>
-              <button
-                onClick={() => {
-                  setLanguage('zh');
-                  closeMenu();
-                }}
-                className={language === 'zh' ? 'active' : ''}
-                type="button"
-              >
-                ZH
-              </button>
-            </div>
           </li>
           <li>
             <a href="#contact" className="nav-cta" onClick={closeMenu}>
