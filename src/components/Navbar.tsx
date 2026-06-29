@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav className={isOpen ? 'nav-open' : ''}>
       <a className="nav-logo" href="#home" onClick={closeMenu}>
-        <span>H</span>ealth <span>F</span>orever
+        Health Forever
       </a>
 
       {/* Desktop Links */}
