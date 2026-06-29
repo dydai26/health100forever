@@ -856,10 +856,17 @@ footer a:hover { opacity: 1; }
     max-width: 600px;
     margin: 0 auto;
     width: 100%;
+    order: 2;
   }
 
   .hero-visual {
-    display: none;
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+
+  .hero-visual .globe-image {
+    max-width: 260px;
   }
 
   .trust-bar-section {
@@ -904,6 +911,10 @@ footer a:hover { opacity: 1; }
 
   .hero {
     padding: 110px 20px 48px;
+  }
+
+  .hero-visual .globe-image {
+    max-width: 200px;
   }
 
   .hero h1 {
