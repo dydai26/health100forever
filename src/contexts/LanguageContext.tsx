@@ -30,7 +30,23 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     const saved = localStorage.getItem('site_translations');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        // Safely merge saved edits with default translations to handle schema additions gracefully
+        const merged = JSON.parse(JSON.stringify(defaultTranslations));
+        (Object.keys(defaultTranslations) as Language[]).forEach((lang) => {
+          if (parsed[lang]) {
+            Object.keys(defaultTranslations[lang]).forEach((sectionKey) => {
+              const sec = sectionKey as keyof TranslationType;
+              if (parsed[lang][sec]) {
+                merged[lang][sec] = {
+                  ...defaultTranslations[lang][sec],
+                  ...parsed[lang][sec]
+                };
+              }
+            });
+          }
+        });
+        return merged;
       } catch (e) {
         console.error('Failed to parse saved translations', e);
       }

@@ -76,15 +76,15 @@ export const Contact: React.FC = () => {
       {/* New bottom highlighted info block */}
       <div className="contact-bottom-info">
         <p className="treatment-line">
-          {t.contact.treatmentLine.split('*').map((part: string, i: number) => 
+          {(t.contact.treatmentLine || '').split('*').map((part: string, i: number) => 
             i % 2 === 1 ? <em key={i} className="highlight-text">{part}</em> : part
           )}
         </p>
         <p className="payment-line">
-          <strong>{t.contact.paymentLine}</strong>
+          <strong>{t.contact.paymentLine || ''}</strong>
         </p>
         <p className="programs-line">
-          {t.contact.programsLine}
+          {t.contact.programsLine || ''}
         </p>
       </div>
     </div>
