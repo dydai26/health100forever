@@ -70,7 +70,7 @@ export const translations = {
       programsLine: "Programs for health and successful life."
     },
     footer: {
-      copyright: "© 2024 Health Forever. We work worldwide."
+      copyright: "© 2026 Health Forever. We work worldwide."
     }
   },
   ru: {
@@ -144,7 +144,7 @@ export const translations = {
       programsLine: "Программы для здоровья и успешной жизни."
     },
     footer: {
-      copyright: "© 2024 Health Forever. Мы работаем по всему миру."
+      copyright: "© 2026 Health Forever. Мы работаем по всему миру."
     }
   },
   zh: {
@@ -218,7 +218,7 @@ export const translations = {
       programsLine: "健康与成功生活的项目。"
     },
     footer: {
-      copyright: "© 2024 Health Forever. 我们服务全球。"
+      copyright: "© 2026 Health Forever. 我们服务全球。"
     }
   }
 };

@@ -104,7 +104,7 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('en', 'contact', 'paymentLine', 'Payment after recovery (30%).'),
 ('en', 'contact', 'programsLine', 'Programs for health and successful life.'),
 
-('en', 'footer', 'copyright', '© 2024 Health Forever. We work worldwide.'),
+('en', 'footer', 'copyright', '© 2026 Health Forever. We work worldwide.'),
 
 -- ==========================================
 -- RUSSIAN (ru)
@@ -172,7 +172,7 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('ru', 'contact', 'paymentLine', 'Оплата после выздоровления (30 %).'),
 ('ru', 'contact', 'programsLine', 'Программы для здоровья и успешной жизни.'),
 
-('ru', 'footer', 'copyright', '© 2024 Health Forever. Мы работаем по всему миру.'),
+('ru', 'footer', 'copyright', '© 2026 Health Forever. Мы работаем по всему миру.'),
 
 -- ==========================================
 -- CHINESE (zh)
@@ -240,6 +240,6 @@ INSERT INTO site_translations (lang, section, key, value) VALUES
 ('zh', 'contact', 'paymentLine', '康复后付款（30%）。'),
 ('zh', 'contact', 'programsLine', '健康与成功生活的项目。'),
 
-('zh', 'footer', 'copyright', '© 2024 Health Forever. 我们服务全球。')
+('zh', 'footer', 'copyright', '© 2026 Health Forever. 我们服务全球。')
 ON CONFLICT (lang, section, key) 
 DO UPDATE SET value = EXCLUDED.value;
