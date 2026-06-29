@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
           <div className="hero-eyebrow">{t.hero.eyebrow}</div>
           <h1>
             {t.hero.title1}
-            <em>{t.hero.title2}</em>
+            {t.hero.title2}
           </h1>
           <p className="hero-desc">{t.hero.desc}</p>
 
